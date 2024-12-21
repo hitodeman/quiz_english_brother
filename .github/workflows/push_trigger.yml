@@ -1,0 +1,8 @@
+name: Push_trigger
+on: push
+jobs:
+    skip-or-run:
+        if: ${{ github.actor == 'hitodeman' }}
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "github.actor == hitodemanのため実行されました"
