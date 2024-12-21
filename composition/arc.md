@@ -1,9 +1,10 @@
 # システム構成
 
-:::note info
-インフォメーション
-infoは省略可能です。
-:::
+```dart:main.dart
+void main() {
+  runApp(const MyApp());
+}
+```
 
 ```mermaid
 architecture-beta
